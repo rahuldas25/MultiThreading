@@ -1,0 +1,18 @@
+
+Callable:
+
+The Callable interface, similar to Runnable, is designed to represent a task that
+ can be executed by a thread. However, unlike Runnable, the Callable interface
+ can return a result and is able to throw a checked exception.
+ The Callable interface is found in the java.util.concurrent package,
+ and it uses generics to define the return type of the call() method.
+ The Executors class contains utility methods to convert from other common
+ forms to Callable classes.
+
+ Runnable:
+
+The Runnable interface is a functional interface in Java that is used to
+create a thread. It has a single method run(), which does not return a value
+and does not throw any checked exceptions. Classes implementing the Runnable
+interface must override this method. The Runnable interface is found in the java.lang
+package.
